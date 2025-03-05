@@ -14,13 +14,12 @@ class TextsTheme {
     }
   }
 
-  TextStyle heading1(Color color) {
+  TextStyle heading(Color color) {
     return TextStyle(
       color: color,
-      fontFamily: 'Montserrat',
       fontWeight: FontWeight.w700,
       letterSpacing: 0,
-      fontSize: 28,
+      fontSize: 26,
     );
   }
 }

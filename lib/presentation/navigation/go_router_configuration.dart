@@ -9,7 +9,7 @@ class GoRouterConfiguration {
 
   late final _goRouter = GoRouter(
     debugLogDiagnostics: true,
-    initialLocation: AppRoutes.splash,
+    initialLocation: AppRoutes.home,
     navigatorKey: _rootNavigatorKey,
     routes: [
       // GoRoute(
